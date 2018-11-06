@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Y59-rv-LqP" customClass="GQPlaceHolderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="无记录" translatesAutoresizingMaskIntoConstraints="NO" id="UkF-gA-0GF">
+                    <rect key="frame" x="107.5" y="150" width="160" height="137"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网络异常" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVv-XV-lhK">
+                    <rect key="frame" x="159" y="309" width="57.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvo-4T-vP1">
+                    <rect key="frame" x="127.5" y="350" width="120" height="40"/>
+                    <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="QhQ-3w-wNg"/>
+                        <constraint firstAttribute="width" constant="120" id="R6X-3N-ool"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="点击重试">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.38431372549019605" green="0.38431372549019605" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="Y59-rv-LqP" eventType="touchUpInside" id="6Kg-DL-AB9"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="JBg-ic-YpO">
+                    <rect key="frame" x="177.5" y="360" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VVv-XV-lhK" firstAttribute="centerX" secondItem="Y59-rv-LqP" secondAttribute="centerX" id="8wd-QY-UtQ"/>
+                <constraint firstItem="JBg-ic-YpO" firstAttribute="centerX" secondItem="gvo-4T-vP1" secondAttribute="centerX" id="9Fb-Te-Yav"/>
+                <constraint firstItem="JBg-ic-YpO" firstAttribute="centerY" secondItem="gvo-4T-vP1" secondAttribute="centerY" id="F93-bX-YHf"/>
+                <constraint firstItem="UkF-gA-0GF" firstAttribute="centerX" secondItem="Y59-rv-LqP" secondAttribute="centerX" id="FMb-yY-FNc"/>
+                <constraint firstItem="VVv-XV-lhK" firstAttribute="top" secondItem="UkF-gA-0GF" secondAttribute="bottom" constant="22" id="G82-56-TYP"/>
+                <constraint firstItem="gvo-4T-vP1" firstAttribute="top" secondItem="VVv-XV-lhK" secondAttribute="bottom" constant="24" id="JeG-I9-FbI"/>
+                <constraint firstItem="UkF-gA-0GF" firstAttribute="top" secondItem="Y59-rv-LqP" secondAttribute="top" constant="150" id="MLK-BR-EZx"/>
+                <constraint firstItem="gvo-4T-vP1" firstAttribute="centerX" secondItem="Y59-rv-LqP" secondAttribute="centerX" id="NxB-h6-Z5R"/>
+            </constraints>
+            <connections>
+                <outlet property="imageTopCon" destination="MLK-BR-EZx" id="tLM-ob-toZ"/>
+                <outlet property="noteImg" destination="UkF-gA-0GF" id="Ipy-V2-R5a"/>
+                <outlet property="noteLab" destination="VVv-XV-lhK" id="OML-2d-bVj"/>
+                <outlet property="refreshView" destination="JBg-ic-YpO" id="MR7-U3-Kyd"/>
+                <outlet property="updateButton" destination="gvo-4T-vP1" id="ef7-0S-WmI"/>
+            </connections>
+            <point key="canvasLocation" x="-207" y="-1353"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="无记录" width="160" height="137"/>
+    </resources>
+</document>

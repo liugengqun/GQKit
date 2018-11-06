@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18016C42225DE01B0079669A /* GQKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18016C41225DE01B0079669A /* GQKeychainManager.m */; };
+		181DDAC1225350A7008FE158 /* GQHookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DDAC0225350A7008FE158 /* GQHookManager.m */; };
+		181DDAC4225355AF008FE158 /* UIViewController+GQLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DDAC3225355AF008FE158 /* UIViewController+GQLogger.m */; };
+		181E5C74226468C90078E1E8 /* GQCatchCrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E5C73226468C90078E1E8 /* GQCatchCrashManager.m */; };
+		18277D232227B0F400279A1C /* GQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18277D222227B0F400279A1C /* GQNavigationController.m */; };
+		18277D262227B31700279A1C /* UINavigationController+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18277D252227B31700279A1C /* UINavigationController+GQExtension.m */; };
+		18306B6221EC5EC800669A85 /* CLLocation+YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18306B6021EC5EC800669A85 /* CLLocation+YCLocation.m */; };
+		18306B6521EC5F1500669A85 /* GQJumpMapNavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18306B6421EC5F1500669A85 /* GQJumpMapNavManager.m */; };
+		1845C38521E0A46E0033644C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C38421E0A46E0033644C /* AppDelegate.m */; };
+		1845C38821E0A46E0033644C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C38721E0A46E0033644C /* ViewController.m */; };
+		1845C38B21E0A46E0033644C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C38921E0A46E0033644C /* Main.storyboard */; };
+		1845C38D21E0A46E0033644C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1845C38C21E0A46E0033644C /* Assets.xcassets */; };
+		1845C39021E0A46E0033644C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C38E21E0A46E0033644C /* LaunchScreen.storyboard */; };
+		1845C39321E0A46E0033644C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C39221E0A46E0033644C /* main.m */; };
+		1845C41B21E0A4D00033644C /* GQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C39C21E0A4D00033644C /* GQBaseTableViewController.m */; };
+		1845C41C21E0A4D00033644C /* GQLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C39E21E0A4D00033644C /* GQLoadingView.m */; };
+		1845C41D21E0A4D00033644C /* GQPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3A021E0A4D00033644C /* GQPlaceHolderView.m */; };
+		1845C41E21E0A4D00033644C /* GQPlaceHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1845C3A121E0A4D00033644C /* GQPlaceHolderView.xib */; };
+		1845C41F21E0A4D00033644C /* GQHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3A521E0A4D00033644C /* GQHTTPSessionManager.m */; };
+		1845C42021E0A4D00033644C /* GQRequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3A721E0A4D00033644C /* GQRequestError.m */; };
+		1845C42121E0A4D00033644C /* GQRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3A921E0A4D00033644C /* GQRequestManager.m */; };
+		1845C42221E0A4D00033644C /* BAKit_DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3AE21E0A4D00033644C /* BAKit_DatePicker.m */; };
+		1845C42321E0A4D00033644C /* BAKit_PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3B021E0A4D00033644C /* BAKit_PickerView.m */; };
+		1845C42421E0A4D00033644C /* BAPickView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1845C3B221E0A4D00033644C /* BAPickView.bundle */; };
+		1845C42521E0A4D00033644C /* NSDate+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3B621E0A4D00033644C /* NSDate+BAKit.m */; };
+		1845C42621E0A4D00033644C /* NSDateFormatter+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3B821E0A4D00033644C /* NSDateFormatter+BAKit.m */; };
+		1845C42721E0A4D00033644C /* UIView+BAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3BA21E0A4D00033644C /* UIView+BAAnimation.m */; };
+		1845C42821E0A4D00033644C /* UIView+BARectCorner_pick.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3BC21E0A4D00033644C /* UIView+BARectCorner_pick.m */; };
+		1845C42921E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3BF21E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.m */; };
+		1845C42A21E0A4D00033644C /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3C221E0A4D00033644C /* UINavigationBar+Awesome.m */; };
+		1845C42B21E0A4D00033644C /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3C521E0A4D00033644C /* RTRootNavigationController.m */; };
+		1845C42C21E0A4D00033644C /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3C721E0A4D00033644C /* UIViewController+RTRootNavigationController.m */; };
+		1845C42D21E0A4D00033644C /* SKTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3CA21E0A4D00033644C /* SKTag.m */; };
+		1845C42E21E0A4D00033644C /* SKTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3CC21E0A4D00033644C /* SKTagButton.m */; };
+		1845C42F21E0A4D00033644C /* SKTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3CE21E0A4D00033644C /* SKTagView.m */; };
+		1845C43021E0A4D00033644C /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3D121E0A4D00033644C /* TYCyclePagerTransformLayout.m */; };
+		1845C43121E0A4D00033644C /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3D321E0A4D00033644C /* TYCyclePagerView.m */; };
+		1845C43221E0A4D00033644C /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3D521E0A4D00033644C /* TYPageControl.m */; };
+		1845C43321E0A4D00033644C /* NSArray+NSDictionary+GQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3D921E0A4D00033644C /* NSArray+NSDictionary+GQLog.m */; };
+		1845C43421E0A4D00033644C /* NSDictionary+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3DB21E0A4D00033644C /* NSDictionary+GQExtension.m */; };
+		1845C43521E0A4D00033644C /* NSMutableAttributedString+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3DD21E0A4D00033644C /* NSMutableAttributedString+GQExtension.m */; };
+		1845C43621E0A4D00033644C /* NSMutableDictionary+GQExtenxion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3DF21E0A4D00033644C /* NSMutableDictionary+GQExtenxion.m */; };
+		1845C43821E0A4D00033644C /* NSString+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3E321E0A4D00033644C /* NSString+GQExtension.m */; };
+		1845C43921E0A4D00033644C /* UIColor+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3E521E0A4D00033644C /* UIColor+GQExtension.m */; };
+		1845C43A21E0A4D00033644C /* GQCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3E821E0A4D00033644C /* GQCacheManager.m */; };
+		1845C43B21E0A4D00033644C /* GQChooseImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3EA21E0A4D00033644C /* GQChooseImageManager.m */; };
+		1845C43C21E0A4D00033644C /* GQInfoStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3EC21E0A4D00033644C /* GQInfoStorageManager.m */; };
+		1845C43E21E0A4D00033644C /* GQPhotoBrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3F021E0A4D00033644C /* GQPhotoBrowserManager.m */; };
+		1845C44021E0A4D00033644C /* GQShowViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3F421E0A4D00033644C /* GQShowViewManager.m */; };
+		1845C44121E0A4D00033644C /* UIBarButtonItem+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3F721E0A4D00033644C /* UIBarButtonItem+GQExtension.m */; };
+		1845C44221E0A4D00033644C /* UIButton+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3F921E0A4D00033644C /* UIButton+GQExtension.m */; };
+		1845C44321E0A4D00033644C /* UIImage+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3FB21E0A4D00033644C /* UIImage+GQExtension.m */; };
+		1845C44421E0A4D00033644C /* UIImageView+GQExtenxion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3FD21E0A4D00033644C /* UIImageView+GQExtenxion.m */; };
+		1845C44521E0A4D00033644C /* UILabel+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C3FF21E0A4D00033644C /* UILabel+GQExtension.m */; };
+		1845C44621E0A4D00033644C /* UIView+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C40121E0A4D00033644C /* UIView+GQExtension.m */; };
+		1845C44721E0A4D00033644C /* GQActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C40421E0A4D00033644C /* GQActionSheetView.m */; };
+		1845C44821E0A4D00033644C /* GQAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C40621E0A4D00033644C /* GQAlertController.m */; };
+		1845C44921E0A4D00033644C /* GQChooseImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C40921E0A4D00033644C /* GQChooseImageViewController.m */; };
+		1845C44A21E0A4D00033644C /* GQPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C40B21E0A4D00033644C /* GQPhotoCell.m */; };
+		1845C44B21E0A4D00033644C /* GQPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1845C40C21E0A4D00033644C /* GQPhotoCell.xib */; };
+		1845C44C21E0A4D00033644C /* GQCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C40E21E0A4D00033644C /* GQCyclePagerViewCell.m */; };
+		1845C44D21E0A4D00033644C /* GQDoubleButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C41021E0A4D00033644C /* GQDoubleButtonCell.m */; };
+		1845C44E21E0A4D00033644C /* GQPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C41221E0A4D00033644C /* GQPickerView.m */; };
+		1845C44F21E0A4D00033644C /* GQSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C41421E0A4D00033644C /* GQSearchView.m */; };
+		1845C45021E0A4D00033644C /* GQSingleButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C41621E0A4D00033644C /* GQSingleButtonCell.m */; };
+		1845C45121E0A4D00033644C /* GQSystemModifyDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C41821E0A4D00033644C /* GQSystemModifyDefaultCell.m */; };
+		1845C45221E0A4D00033644C /* GQTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C41A21E0A4D00033644C /* GQTextViewCell.m */; };
+		1845C45821E0A9190033644C /* GQSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C45521E0A9190033644C /* GQSegmentTitleView.m */; };
+		1845C45921E0A9190033644C /* GQSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C45721E0A9190033644C /* GQSegmentViewController.m */; };
+		1845C46A21E1BA700033644C /* GQShowHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C46921E1BA700033644C /* GQShowHudManager.m */; };
+		187107F121F6EE63007EDD3D /* GQLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187107F021F6EE62007EDD3D /* GQLabelCell.m */; };
+		18B087B1222E272100E52DC8 /* GQSocketRocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B087B0222E272100E52DC8 /* GQSocketRocketManager.m */; };
+		18B087B4222E7EDE00E52DC8 /* GQProjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B087B3222E7EDE00E52DC8 /* GQProjectManager.m */; };
+		18B45CC021E5FCEE00D1E46C /* GQTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B45CBE21E5FCEE00D1E46C /* GQTextFieldCell.xib */; };
+		18B45CC121E5FCEE00D1E46C /* GQTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B45CBF21E5FCEE00D1E46C /* GQTextFieldCell.m */; };
+		18B45CC821E609F500D1E46C /* NSArray+GQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B45CC721E609F500D1E46C /* NSArray+GQExtension.m */; };
+		18B45CD721E60E1200D1E46C /* GQTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B45CD521E60E1100D1E46C /* GQTimeManager.m */; };
+		6AF76630526CDBF5549BA12F /* libPods-GQKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B66A22A9E81564C1B9842BC3 /* libPods-GQKit.a */; };
+		A6AB2CE1249D1861006EB3E5 /* GQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AB2CE0249D1861006EB3E5 /* GQBaseTableViewCell.m */; };
+		A6BE134C2296F18600DFA211 /* HXVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE134B2296F18600DFA211 /* HXVideoModel.m */; };
+		A6D3AE4B228F10C900EE1967 /* GQSegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D3AE4A228F10C900EE1967 /* GQSegmentScrollView.m */; };
+		B79869F222FA7E9800C356C9 /* GQCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B79869F122FA7E9800C356C9 /* GQCommonTool.m */; };
+		B7B9F25B2649397900ACCF82 /* GQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B9F25A2649397900ACCF82 /* GQBaseViewController.m */; };
+		B7C1E02D237D455800BE231F /* NSObject+GQKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C1E02C237D455700BE231F /* NSObject+GQKVO.m */; };
+		B7CD303922BCC5EF0062B373 /* GQWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD303822BCC5EF0062B373 /* GQWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18016C40225DE01B0079669A /* GQKeychainManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQKeychainManager.h; sourceTree = "<group>"; };
+		18016C41225DE01B0079669A /* GQKeychainManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQKeychainManager.m; sourceTree = "<group>"; };
+		181DDABF225350A7008FE158 /* GQHookManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQHookManager.h; sourceTree = "<group>"; };
+		181DDAC0225350A7008FE158 /* GQHookManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQHookManager.m; sourceTree = "<group>"; };
+		181DDAC2225355AF008FE158 /* UIViewController+GQLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GQLogger.h"; sourceTree = "<group>"; };
+		181DDAC3225355AF008FE158 /* UIViewController+GQLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GQLogger.m"; sourceTree = "<group>"; };
+		181E5C72226468C80078E1E8 /* GQCatchCrashManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQCatchCrashManager.h; sourceTree = "<group>"; };
+		181E5C73226468C90078E1E8 /* GQCatchCrashManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQCatchCrashManager.m; sourceTree = "<group>"; };
+		18277D212227B0F400279A1C /* GQNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQNavigationController.h; sourceTree = "<group>"; };
+		18277D222227B0F400279A1C /* GQNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQNavigationController.m; sourceTree = "<group>"; };
+		18277D242227B31700279A1C /* UINavigationController+GQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GQExtension.h"; sourceTree = "<group>"; };
+		18277D252227B31700279A1C /* UINavigationController+GQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+GQExtension.m"; sourceTree = "<group>"; };
+		18306B6021EC5EC800669A85 /* CLLocation+YCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+YCLocation.m"; sourceTree = "<group>"; };
+		18306B6121EC5EC800669A85 /* CLLocation+YCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+YCLocation.h"; sourceTree = "<group>"; };
+		18306B6321EC5F1500669A85 /* GQJumpMapNavManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQJumpMapNavManager.h; sourceTree = "<group>"; };
+		18306B6421EC5F1500669A85 /* GQJumpMapNavManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQJumpMapNavManager.m; sourceTree = "<group>"; };
+		1845C38021E0A46E0033644C /* GQKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C38321E0A46E0033644C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1845C38421E0A46E0033644C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1845C38621E0A46E0033644C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1845C38721E0A46E0033644C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1845C38A21E0A46E0033644C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1845C38C21E0A46E0033644C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1845C38F21E0A46E0033644C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1845C39121E0A46E0033644C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845C39221E0A46E0033644C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1845C39B21E0A4D00033644C /* GQBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQBaseTableViewController.h; sourceTree = "<group>"; };
+		1845C39C21E0A4D00033644C /* GQBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQBaseTableViewController.m; sourceTree = "<group>"; };
+		1845C39D21E0A4D00033644C /* GQLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQLoadingView.h; sourceTree = "<group>"; };
+		1845C39E21E0A4D00033644C /* GQLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQLoadingView.m; sourceTree = "<group>"; };
+		1845C39F21E0A4D00033644C /* GQPlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQPlaceHolderView.h; sourceTree = "<group>"; };
+		1845C3A021E0A4D00033644C /* GQPlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQPlaceHolderView.m; sourceTree = "<group>"; };
+		1845C3A121E0A4D00033644C /* GQPlaceHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQPlaceHolderView.xib; sourceTree = "<group>"; };
+		1845C3A221E0A4D00033644C /* GQKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQKit.h; sourceTree = "<group>"; };
+		1845C3A421E0A4D00033644C /* GQHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQHTTPSessionManager.h; sourceTree = "<group>"; };
+		1845C3A521E0A4D00033644C /* GQHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQHTTPSessionManager.m; sourceTree = "<group>"; };
+		1845C3A621E0A4D00033644C /* GQRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQRequestError.h; sourceTree = "<group>"; };
+		1845C3A721E0A4D00033644C /* GQRequestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQRequestError.m; sourceTree = "<group>"; };
+		1845C3A821E0A4D00033644C /* GQRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQRequestManager.h; sourceTree = "<group>"; };
+		1845C3A921E0A4D00033644C /* GQRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQRequestManager.m; sourceTree = "<group>"; };
+		1845C3AC21E0A4D00033644C /* BAKit_ConfigurationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_ConfigurationDefine.h; sourceTree = "<group>"; };
+		1845C3AD21E0A4D00033644C /* BAKit_DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_DatePicker.h; sourceTree = "<group>"; };
+		1845C3AE21E0A4D00033644C /* BAKit_DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAKit_DatePicker.m; sourceTree = "<group>"; };
+		1845C3AF21E0A4D00033644C /* BAKit_PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_PickerView.h; sourceTree = "<group>"; };
+		1845C3B021E0A4D00033644C /* BAKit_PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAKit_PickerView.m; sourceTree = "<group>"; };
+		1845C3B121E0A4D00033644C /* BAKit_PickerViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_PickerViewConfig.h; sourceTree = "<group>"; };
+		1845C3B221E0A4D00033644C /* BAPickView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BAPickView.bundle; sourceTree = "<group>"; };
+		1845C3B321E0A4D00033644C /* BAPickView_OC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPickView_OC.h; sourceTree = "<group>"; };
+		1845C3B421E0A4D00033644C /* BAPickView_Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPickView_Version.h; sourceTree = "<group>"; };
+		1845C3B521E0A4D00033644C /* NSDate+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BAKit.h"; sourceTree = "<group>"; };
+		1845C3B621E0A4D00033644C /* NSDate+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BAKit.m"; sourceTree = "<group>"; };
+		1845C3B721E0A4D00033644C /* NSDateFormatter+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+BAKit.h"; sourceTree = "<group>"; };
+		1845C3B821E0A4D00033644C /* NSDateFormatter+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+BAKit.m"; sourceTree = "<group>"; };
+		1845C3B921E0A4D00033644C /* UIView+BAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BAAnimation.h"; sourceTree = "<group>"; };
+		1845C3BA21E0A4D00033644C /* UIView+BAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BAAnimation.m"; sourceTree = "<group>"; };
+		1845C3BB21E0A4D00033644C /* UIView+BARectCorner_pick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BARectCorner_pick.h"; sourceTree = "<group>"; };
+		1845C3BC21E0A4D00033644C /* UIView+BARectCorner_pick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BARectCorner_pick.m"; sourceTree = "<group>"; };
+		1845C3BE21E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		1845C3BF21E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		1845C3C121E0A4D00033644C /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		1845C3C221E0A4D00033644C /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		1845C3C421E0A4D00033644C /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		1845C3C521E0A4D00033644C /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		1845C3C621E0A4D00033644C /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		1845C3C721E0A4D00033644C /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		1845C3C921E0A4D00033644C /* SKTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTag.h; sourceTree = "<group>"; };
+		1845C3CA21E0A4D00033644C /* SKTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTag.m; sourceTree = "<group>"; };
+		1845C3CB21E0A4D00033644C /* SKTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTagButton.h; sourceTree = "<group>"; };
+		1845C3CC21E0A4D00033644C /* SKTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTagButton.m; sourceTree = "<group>"; };
+		1845C3CD21E0A4D00033644C /* SKTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTagView.h; sourceTree = "<group>"; };
+		1845C3CE21E0A4D00033644C /* SKTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTagView.m; sourceTree = "<group>"; };
+		1845C3D021E0A4D00033644C /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		1845C3D121E0A4D00033644C /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		1845C3D221E0A4D00033644C /* TYCyclePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerView.h; sourceTree = "<group>"; };
+		1845C3D321E0A4D00033644C /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
+		1845C3D421E0A4D00033644C /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
+		1845C3D521E0A4D00033644C /* TYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPageControl.m; sourceTree = "<group>"; };
+		1845C3D821E0A4D00033644C /* NSArray+NSDictionary+GQLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSDictionary+GQLog.h"; sourceTree = "<group>"; };
+		1845C3D921E0A4D00033644C /* NSArray+NSDictionary+GQLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSDictionary+GQLog.m"; sourceTree = "<group>"; };
+		1845C3DA21E0A4D00033644C /* NSDictionary+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3DB21E0A4D00033644C /* NSDictionary+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3DC21E0A4D00033644C /* NSMutableAttributedString+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3DD21E0A4D00033644C /* NSMutableAttributedString+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3DE21E0A4D00033644C /* NSMutableDictionary+GQExtenxion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+GQExtenxion.h"; sourceTree = "<group>"; };
+		1845C3DF21E0A4D00033644C /* NSMutableDictionary+GQExtenxion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+GQExtenxion.m"; sourceTree = "<group>"; };
+		1845C3E221E0A4D00033644C /* NSString+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3E321E0A4D00033644C /* NSString+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3E421E0A4D00033644C /* UIColor+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3E521E0A4D00033644C /* UIColor+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3E721E0A4D00033644C /* GQCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCacheManager.h; sourceTree = "<group>"; };
+		1845C3E821E0A4D00033644C /* GQCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCacheManager.m; sourceTree = "<group>"; };
+		1845C3E921E0A4D00033644C /* GQChooseImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQChooseImageManager.h; sourceTree = "<group>"; };
+		1845C3EA21E0A4D00033644C /* GQChooseImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQChooseImageManager.m; sourceTree = "<group>"; };
+		1845C3EB21E0A4D00033644C /* GQInfoStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQInfoStorageManager.h; sourceTree = "<group>"; };
+		1845C3EC21E0A4D00033644C /* GQInfoStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQInfoStorageManager.m; sourceTree = "<group>"; };
+		1845C3ED21E0A4D00033644C /* GQPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQPayManager.h; sourceTree = "<group>"; };
+		1845C3EE21E0A4D00033644C /* GQPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQPayManager.m; sourceTree = "<group>"; };
+		1845C3EF21E0A4D00033644C /* GQPhotoBrowserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQPhotoBrowserManager.h; sourceTree = "<group>"; };
+		1845C3F021E0A4D00033644C /* GQPhotoBrowserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQPhotoBrowserManager.m; sourceTree = "<group>"; };
+		1845C3F121E0A4D00033644C /* GQShareSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQShareSDKManager.h; sourceTree = "<group>"; };
+		1845C3F221E0A4D00033644C /* GQShareSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQShareSDKManager.m; sourceTree = "<group>"; };
+		1845C3F321E0A4D00033644C /* GQShowViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQShowViewManager.h; sourceTree = "<group>"; };
+		1845C3F421E0A4D00033644C /* GQShowViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQShowViewManager.m; sourceTree = "<group>"; };
+		1845C3F621E0A4D00033644C /* UIBarButtonItem+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3F721E0A4D00033644C /* UIBarButtonItem+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3F821E0A4D00033644C /* UIButton+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3F921E0A4D00033644C /* UIButton+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3FA21E0A4D00033644C /* UIImage+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3FB21E0A4D00033644C /* UIImage+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GQExtension.m"; sourceTree = "<group>"; };
+		1845C3FC21E0A4D00033644C /* UIImageView+GQExtenxion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GQExtenxion.h"; sourceTree = "<group>"; };
+		1845C3FD21E0A4D00033644C /* UIImageView+GQExtenxion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GQExtenxion.m"; sourceTree = "<group>"; };
+		1845C3FE21E0A4D00033644C /* UILabel+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GQExtension.h"; sourceTree = "<group>"; };
+		1845C3FF21E0A4D00033644C /* UILabel+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GQExtension.m"; sourceTree = "<group>"; };
+		1845C40021E0A4D00033644C /* UIView+GQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GQExtension.h"; sourceTree = "<group>"; };
+		1845C40121E0A4D00033644C /* UIView+GQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GQExtension.m"; sourceTree = "<group>"; };
+		1845C40321E0A4D00033644C /* GQActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQActionSheetView.h; sourceTree = "<group>"; };
+		1845C40421E0A4D00033644C /* GQActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQActionSheetView.m; sourceTree = "<group>"; };
+		1845C40521E0A4D00033644C /* GQAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQAlertController.h; sourceTree = "<group>"; };
+		1845C40621E0A4D00033644C /* GQAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQAlertController.m; sourceTree = "<group>"; };
+		1845C40821E0A4D00033644C /* GQChooseImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQChooseImageViewController.h; sourceTree = "<group>"; };
+		1845C40921E0A4D00033644C /* GQChooseImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQChooseImageViewController.m; sourceTree = "<group>"; };
+		1845C40A21E0A4D00033644C /* GQPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQPhotoCell.h; sourceTree = "<group>"; };
+		1845C40B21E0A4D00033644C /* GQPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQPhotoCell.m; sourceTree = "<group>"; };
+		1845C40C21E0A4D00033644C /* GQPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQPhotoCell.xib; sourceTree = "<group>"; };
+		1845C40D21E0A4D00033644C /* GQCyclePagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCyclePagerViewCell.h; sourceTree = "<group>"; };
+		1845C40E21E0A4D00033644C /* GQCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCyclePagerViewCell.m; sourceTree = "<group>"; };
+		1845C40F21E0A4D00033644C /* GQDoubleButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQDoubleButtonCell.h; sourceTree = "<group>"; };
+		1845C41021E0A4D00033644C /* GQDoubleButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQDoubleButtonCell.m; sourceTree = "<group>"; };
+		1845C41121E0A4D00033644C /* GQPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQPickerView.h; sourceTree = "<group>"; };
+		1845C41221E0A4D00033644C /* GQPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQPickerView.m; sourceTree = "<group>"; };
+		1845C41321E0A4D00033644C /* GQSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSearchView.h; sourceTree = "<group>"; };
+		1845C41421E0A4D00033644C /* GQSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSearchView.m; sourceTree = "<group>"; };
+		1845C41521E0A4D00033644C /* GQSingleButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSingleButtonCell.h; sourceTree = "<group>"; };
+		1845C41621E0A4D00033644C /* GQSingleButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSingleButtonCell.m; sourceTree = "<group>"; };
+		1845C41721E0A4D00033644C /* GQSystemModifyDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSystemModifyDefaultCell.h; sourceTree = "<group>"; };
+		1845C41821E0A4D00033644C /* GQSystemModifyDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSystemModifyDefaultCell.m; sourceTree = "<group>"; };
+		1845C41921E0A4D00033644C /* GQTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTextViewCell.h; sourceTree = "<group>"; };
+		1845C41A21E0A4D00033644C /* GQTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTextViewCell.m; sourceTree = "<group>"; };
+		1845C45421E0A9190033644C /* GQSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSegmentTitleView.h; sourceTree = "<group>"; };
+		1845C45521E0A9190033644C /* GQSegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSegmentTitleView.m; sourceTree = "<group>"; };
+		1845C45621E0A9190033644C /* GQSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSegmentViewController.h; sourceTree = "<group>"; };
+		1845C45721E0A9190033644C /* GQSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSegmentViewController.m; sourceTree = "<group>"; };
+		1845C46821E1BA700033644C /* GQShowHudManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQShowHudManager.h; sourceTree = "<group>"; };
+		1845C46921E1BA700033644C /* GQShowHudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQShowHudManager.m; sourceTree = "<group>"; };
+		187107EF21F6EE61007EDD3D /* GQLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQLabelCell.h; sourceTree = "<group>"; };
+		187107F021F6EE62007EDD3D /* GQLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQLabelCell.m; sourceTree = "<group>"; };
+		18B087AF222E272100E52DC8 /* GQSocketRocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQSocketRocketManager.h; sourceTree = "<group>"; };
+		18B087B0222E272100E52DC8 /* GQSocketRocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQSocketRocketManager.m; sourceTree = "<group>"; };
+		18B087B2222E7EDE00E52DC8 /* GQProjectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQProjectManager.h; sourceTree = "<group>"; };
+		18B087B3222E7EDE00E52DC8 /* GQProjectManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQProjectManager.m; sourceTree = "<group>"; };
+		18B45CBD21E5FCEE00D1E46C /* GQTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTextFieldCell.h; sourceTree = "<group>"; };
+		18B45CBE21E5FCEE00D1E46C /* GQTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQTextFieldCell.xib; sourceTree = "<group>"; };
+		18B45CBF21E5FCEE00D1E46C /* GQTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTextFieldCell.m; sourceTree = "<group>"; };
+		18B45CC221E6086700D1E46C /* GQAliyunOSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQAliyunOSSManager.h; sourceTree = "<group>"; };
+		18B45CC321E6086700D1E46C /* GQAliyunOSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQAliyunOSSManager.m; sourceTree = "<group>"; };
+		18B45CC621E609F500D1E46C /* NSArray+GQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+GQExtension.h"; sourceTree = "<group>"; };
+		18B45CC721E609F500D1E46C /* NSArray+GQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GQExtension.m"; sourceTree = "<group>"; };
+		18B45CD521E60E1100D1E46C /* GQTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTimeManager.m; sourceTree = "<group>"; };
+		18B45CD621E60E1100D1E46C /* GQTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTimeManager.h; sourceTree = "<group>"; };
+		75EDDDEFB65BB43ADF5CB241 /* Pods-GQKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GQKit/Pods-GQKit.release.xcconfig"; sourceTree = "<group>"; };
+		A6AB2CDF249D1861006EB3E5 /* GQBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQBaseTableViewCell.h; sourceTree = "<group>"; };
+		A6AB2CE0249D1861006EB3E5 /* GQBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQBaseTableViewCell.m; sourceTree = "<group>"; };
+		A6BE134A2296F18500DFA211 /* HXVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXVideoModel.h; sourceTree = "<group>"; };
+		A6BE134B2296F18600DFA211 /* HXVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXVideoModel.m; sourceTree = "<group>"; };
+		A6D3AE49228F10C900EE1967 /* GQSegmentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQSegmentScrollView.h; sourceTree = "<group>"; };
+		A6D3AE4A228F10C900EE1967 /* GQSegmentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQSegmentScrollView.m; sourceTree = "<group>"; };
+		B66A22A9E81564C1B9842BC3 /* libPods-GQKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GQKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79869F022FA7E9800C356C9 /* GQCommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQCommonTool.h; sourceTree = "<group>"; };
+		B79869F122FA7E9800C356C9 /* GQCommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQCommonTool.m; sourceTree = "<group>"; };
+		B7B9F2592649397900ACCF82 /* GQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQBaseViewController.h; sourceTree = "<group>"; };
+		B7B9F25A2649397900ACCF82 /* GQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQBaseViewController.m; sourceTree = "<group>"; };
+		B7C1E02B237D455700BE231F /* NSObject+GQKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GQKVO.h"; sourceTree = "<group>"; };
+		B7C1E02C237D455700BE231F /* NSObject+GQKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GQKVO.m"; sourceTree = "<group>"; };
+		B7CD303722BCC5EF0062B373 /* GQWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQWeakProxy.h; sourceTree = "<group>"; };
+		B7CD303822BCC5EF0062B373 /* GQWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQWeakProxy.m; sourceTree = "<group>"; };
+		C0CC776AC0511140D43302B5 /* Pods-GQKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GQKit/Pods-GQKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1845C37D21E0A46E0033644C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF76630526CDBF5549BA12F /* libPods-GQKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A0A5A8DA57B0BF9DF61960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B66A22A9E81564C1B9842BC3 /* libPods-GQKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18306B5F21EC5EA900669A85 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				18306B6121EC5EC800669A85 /* CLLocation+YCLocation.h */,
+				18306B6021EC5EC800669A85 /* CLLocation+YCLocation.m */,
+				18306B6321EC5F1500669A85 /* GQJumpMapNavManager.h */,
+				18306B6421EC5F1500669A85 /* GQJumpMapNavManager.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1845C37721E0A46E0033644C = {
+			isa = PBXGroup;
+			children = (
+				1845C38221E0A46E0033644C /* GQKit */,
+				1845C38121E0A46E0033644C /* Products */,
+				810C7E10CD32D5B80CDDA7E4 /* Pods */,
+				05A0A5A8DA57B0BF9DF61960 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1845C38121E0A46E0033644C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1845C38021E0A46E0033644C /* GQKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1845C38221E0A46E0033644C /* GQKit */ = {
+			isa = PBXGroup;
+			children = (
+				1845C39921E0A4D00033644C /* GQKit */,
+				1845C38321E0A46E0033644C /* AppDelegate.h */,
+				1845C38421E0A46E0033644C /* AppDelegate.m */,
+				A6BE134A2296F18500DFA211 /* HXVideoModel.h */,
+				A6BE134B2296F18600DFA211 /* HXVideoModel.m */,
+				1845C38621E0A46E0033644C /* ViewController.h */,
+				1845C38721E0A46E0033644C /* ViewController.m */,
+				1845C38921E0A46E0033644C /* Main.storyboard */,
+				1845C38C21E0A46E0033644C /* Assets.xcassets */,
+				1845C38E21E0A46E0033644C /* LaunchScreen.storyboard */,
+				1845C39121E0A46E0033644C /* Info.plist */,
+				1845C39221E0A46E0033644C /* main.m */,
+			);
+			path = GQKit;
+			sourceTree = "<group>";
+		};
+		1845C39921E0A4D00033644C /* GQKit */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3A221E0A4D00033644C /* GQKit.h */,
+				1845C39A21E0A4D00033644C /* BaseVC */,
+				1845C3A321E0A4D00033644C /* Networking */,
+				1845C3AA21E0A4D00033644C /* ThirdPart */,
+				1845C3D621E0A4D00033644C /* Tool */,
+				1845C40221E0A4D00033644C /* View */,
+			);
+			path = GQKit;
+			sourceTree = "<group>";
+		};
+		1845C39A21E0A4D00033644C /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				1845C39B21E0A4D00033644C /* GQBaseTableViewController.h */,
+				1845C39C21E0A4D00033644C /* GQBaseTableViewController.m */,
+				1845C39D21E0A4D00033644C /* GQLoadingView.h */,
+				1845C39E21E0A4D00033644C /* GQLoadingView.m */,
+				1845C39F21E0A4D00033644C /* GQPlaceHolderView.h */,
+				1845C3A021E0A4D00033644C /* GQPlaceHolderView.m */,
+				1845C3A121E0A4D00033644C /* GQPlaceHolderView.xib */,
+				18277D212227B0F400279A1C /* GQNavigationController.h */,
+				18277D222227B0F400279A1C /* GQNavigationController.m */,
+				B7B9F2592649397900ACCF82 /* GQBaseViewController.h */,
+				B7B9F25A2649397900ACCF82 /* GQBaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		1845C3A321E0A4D00033644C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3A421E0A4D00033644C /* GQHTTPSessionManager.h */,
+				1845C3A521E0A4D00033644C /* GQHTTPSessionManager.m */,
+				1845C3A621E0A4D00033644C /* GQRequestError.h */,
+				1845C3A721E0A4D00033644C /* GQRequestError.m */,
+				1845C3A821E0A4D00033644C /* GQRequestManager.h */,
+				1845C3A921E0A4D00033644C /* GQRequestManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1845C3AA21E0A4D00033644C /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3AB21E0A4D00033644C /* BAPickView */,
+				1845C3BD21E0A4D00033644C /* FDFullscreenPopGesture */,
+				1845C3C021E0A4D00033644C /* LTNavigationBar */,
+				1845C3C321E0A4D00033644C /* RTRootNavigationController */,
+				1845C3C821E0A4D00033644C /* SKTagView */,
+				1845C3CF21E0A4D00033644C /* TYCyclePagerView */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		1845C3AB21E0A4D00033644C /* BAPickView */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3AC21E0A4D00033644C /* BAKit_ConfigurationDefine.h */,
+				1845C3AD21E0A4D00033644C /* BAKit_DatePicker.h */,
+				1845C3AE21E0A4D00033644C /* BAKit_DatePicker.m */,
+				1845C3AF21E0A4D00033644C /* BAKit_PickerView.h */,
+				1845C3B021E0A4D00033644C /* BAKit_PickerView.m */,
+				1845C3B121E0A4D00033644C /* BAKit_PickerViewConfig.h */,
+				1845C3B221E0A4D00033644C /* BAPickView.bundle */,
+				1845C3B321E0A4D00033644C /* BAPickView_OC.h */,
+				1845C3B421E0A4D00033644C /* BAPickView_Version.h */,
+				1845C3B521E0A4D00033644C /* NSDate+BAKit.h */,
+				1845C3B621E0A4D00033644C /* NSDate+BAKit.m */,
+				1845C3B721E0A4D00033644C /* NSDateFormatter+BAKit.h */,
+				1845C3B821E0A4D00033644C /* NSDateFormatter+BAKit.m */,
+				1845C3B921E0A4D00033644C /* UIView+BAAnimation.h */,
+				1845C3BA21E0A4D00033644C /* UIView+BAAnimation.m */,
+				1845C3BB21E0A4D00033644C /* UIView+BARectCorner_pick.h */,
+				1845C3BC21E0A4D00033644C /* UIView+BARectCorner_pick.m */,
+			);
+			path = BAPickView;
+			sourceTree = "<group>";
+		};
+		1845C3BD21E0A4D00033644C /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3BE21E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.h */,
+				1845C3BF21E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		1845C3C021E0A4D00033644C /* LTNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3C121E0A4D00033644C /* UINavigationBar+Awesome.h */,
+				1845C3C221E0A4D00033644C /* UINavigationBar+Awesome.m */,
+			);
+			path = LTNavigationBar;
+			sourceTree = "<group>";
+		};
+		1845C3C321E0A4D00033644C /* RTRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3C421E0A4D00033644C /* RTRootNavigationController.h */,
+				1845C3C521E0A4D00033644C /* RTRootNavigationController.m */,
+				1845C3C621E0A4D00033644C /* UIViewController+RTRootNavigationController.h */,
+				1845C3C721E0A4D00033644C /* UIViewController+RTRootNavigationController.m */,
+			);
+			path = RTRootNavigationController;
+			sourceTree = "<group>";
+		};
+		1845C3C821E0A4D00033644C /* SKTagView */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3C921E0A4D00033644C /* SKTag.h */,
+				1845C3CA21E0A4D00033644C /* SKTag.m */,
+				1845C3CB21E0A4D00033644C /* SKTagButton.h */,
+				1845C3CC21E0A4D00033644C /* SKTagButton.m */,
+				1845C3CD21E0A4D00033644C /* SKTagView.h */,
+				1845C3CE21E0A4D00033644C /* SKTagView.m */,
+			);
+			path = SKTagView;
+			sourceTree = "<group>";
+		};
+		1845C3CF21E0A4D00033644C /* TYCyclePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3D021E0A4D00033644C /* TYCyclePagerTransformLayout.h */,
+				1845C3D121E0A4D00033644C /* TYCyclePagerTransformLayout.m */,
+				1845C3D221E0A4D00033644C /* TYCyclePagerView.h */,
+				1845C3D321E0A4D00033644C /* TYCyclePagerView.m */,
+				1845C3D421E0A4D00033644C /* TYPageControl.h */,
+				1845C3D521E0A4D00033644C /* TYPageControl.m */,
+			);
+			path = TYCyclePagerView;
+			sourceTree = "<group>";
+		};
+		1845C3D621E0A4D00033644C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18B45CC521E6097700D1E46C /* UncommonUsedManager */,
+				1845C3D721E0A4D00033644C /* Foundation */,
+				1845C3E621E0A4D00033644C /* Manager */,
+				1845C3F521E0A4D00033644C /* UIKit */,
+				B7CD303622BCC5C20062B373 /* Other */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1845C3D721E0A4D00033644C /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3D821E0A4D00033644C /* NSArray+NSDictionary+GQLog.h */,
+				1845C3D921E0A4D00033644C /* NSArray+NSDictionary+GQLog.m */,
+				18B45CC621E609F500D1E46C /* NSArray+GQExtension.h */,
+				18B45CC721E609F500D1E46C /* NSArray+GQExtension.m */,
+				1845C3DA21E0A4D00033644C /* NSDictionary+GQExtension.h */,
+				1845C3DB21E0A4D00033644C /* NSDictionary+GQExtension.m */,
+				1845C3DC21E0A4D00033644C /* NSMutableAttributedString+GQExtension.h */,
+				1845C3DD21E0A4D00033644C /* NSMutableAttributedString+GQExtension.m */,
+				1845C3DE21E0A4D00033644C /* NSMutableDictionary+GQExtenxion.h */,
+				1845C3DF21E0A4D00033644C /* NSMutableDictionary+GQExtenxion.m */,
+				1845C3E221E0A4D00033644C /* NSString+GQExtension.h */,
+				1845C3E321E0A4D00033644C /* NSString+GQExtension.m */,
+				1845C3E421E0A4D00033644C /* UIColor+GQExtension.h */,
+				1845C3E521E0A4D00033644C /* UIColor+GQExtension.m */,
+				B7C1E02B237D455700BE231F /* NSObject+GQKVO.h */,
+				B7C1E02C237D455700BE231F /* NSObject+GQKVO.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		1845C3E621E0A4D00033644C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18B45CD621E60E1100D1E46C /* GQTimeManager.h */,
+				18B45CD521E60E1100D1E46C /* GQTimeManager.m */,
+				1845C3E921E0A4D00033644C /* GQChooseImageManager.h */,
+				1845C3EA21E0A4D00033644C /* GQChooseImageManager.m */,
+				1845C3EB21E0A4D00033644C /* GQInfoStorageManager.h */,
+				1845C3EC21E0A4D00033644C /* GQInfoStorageManager.m */,
+				1845C3ED21E0A4D00033644C /* GQPayManager.h */,
+				1845C3EE21E0A4D00033644C /* GQPayManager.m */,
+				1845C3EF21E0A4D00033644C /* GQPhotoBrowserManager.h */,
+				1845C3F021E0A4D00033644C /* GQPhotoBrowserManager.m */,
+				1845C3F121E0A4D00033644C /* GQShareSDKManager.h */,
+				1845C3F221E0A4D00033644C /* GQShareSDKManager.m */,
+				1845C3F321E0A4D00033644C /* GQShowViewManager.h */,
+				1845C3F421E0A4D00033644C /* GQShowViewManager.m */,
+				1845C46821E1BA700033644C /* GQShowHudManager.h */,
+				1845C46921E1BA700033644C /* GQShowHudManager.m */,
+				18B087B2222E7EDE00E52DC8 /* GQProjectManager.h */,
+				18B087B3222E7EDE00E52DC8 /* GQProjectManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1845C3F521E0A4D00033644C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1845C3F621E0A4D00033644C /* UIBarButtonItem+GQExtension.h */,
+				1845C3F721E0A4D00033644C /* UIBarButtonItem+GQExtension.m */,
+				1845C3F821E0A4D00033644C /* UIButton+GQExtension.h */,
+				1845C3F921E0A4D00033644C /* UIButton+GQExtension.m */,
+				1845C3FA21E0A4D00033644C /* UIImage+GQExtension.h */,
+				1845C3FB21E0A4D00033644C /* UIImage+GQExtension.m */,
+				1845C3FC21E0A4D00033644C /* UIImageView+GQExtenxion.h */,
+				1845C3FD21E0A4D00033644C /* UIImageView+GQExtenxion.m */,
+				1845C3FE21E0A4D00033644C /* UILabel+GQExtension.h */,
+				1845C3FF21E0A4D00033644C /* UILabel+GQExtension.m */,
+				1845C40021E0A4D00033644C /* UIView+GQExtension.h */,
+				1845C40121E0A4D00033644C /* UIView+GQExtension.m */,
+				18277D242227B31700279A1C /* UINavigationController+GQExtension.h */,
+				18277D252227B31700279A1C /* UINavigationController+GQExtension.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1845C40221E0A4D00033644C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1845C45321E0A9190033644C /* GQSegmentViewController */,
+				1845C40321E0A4D00033644C /* GQActionSheetView.h */,
+				1845C40421E0A4D00033644C /* GQActionSheetView.m */,
+				1845C40521E0A4D00033644C /* GQAlertController.h */,
+				1845C40621E0A4D00033644C /* GQAlertController.m */,
+				1845C40721E0A4D00033644C /* GQChooseImage */,
+				1845C40D21E0A4D00033644C /* GQCyclePagerViewCell.h */,
+				1845C40E21E0A4D00033644C /* GQCyclePagerViewCell.m */,
+				1845C40F21E0A4D00033644C /* GQDoubleButtonCell.h */,
+				1845C41021E0A4D00033644C /* GQDoubleButtonCell.m */,
+				A6AB2CDF249D1861006EB3E5 /* GQBaseTableViewCell.h */,
+				A6AB2CE0249D1861006EB3E5 /* GQBaseTableViewCell.m */,
+				1845C41121E0A4D00033644C /* GQPickerView.h */,
+				1845C41221E0A4D00033644C /* GQPickerView.m */,
+				1845C41321E0A4D00033644C /* GQSearchView.h */,
+				1845C41421E0A4D00033644C /* GQSearchView.m */,
+				1845C41521E0A4D00033644C /* GQSingleButtonCell.h */,
+				1845C41621E0A4D00033644C /* GQSingleButtonCell.m */,
+				1845C41721E0A4D00033644C /* GQSystemModifyDefaultCell.h */,
+				1845C41821E0A4D00033644C /* GQSystemModifyDefaultCell.m */,
+				1845C41921E0A4D00033644C /* GQTextViewCell.h */,
+				1845C41A21E0A4D00033644C /* GQTextViewCell.m */,
+				18B45CBD21E5FCEE00D1E46C /* GQTextFieldCell.h */,
+				18B45CBF21E5FCEE00D1E46C /* GQTextFieldCell.m */,
+				18B45CBE21E5FCEE00D1E46C /* GQTextFieldCell.xib */,
+				187107EF21F6EE61007EDD3D /* GQLabelCell.h */,
+				187107F021F6EE62007EDD3D /* GQLabelCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1845C40721E0A4D00033644C /* GQChooseImage */ = {
+			isa = PBXGroup;
+			children = (
+				1845C40821E0A4D00033644C /* GQChooseImageViewController.h */,
+				1845C40921E0A4D00033644C /* GQChooseImageViewController.m */,
+				1845C40A21E0A4D00033644C /* GQPhotoCell.h */,
+				1845C40B21E0A4D00033644C /* GQPhotoCell.m */,
+				1845C40C21E0A4D00033644C /* GQPhotoCell.xib */,
+			);
+			path = GQChooseImage;
+			sourceTree = "<group>";
+		};
+		1845C45321E0A9190033644C /* GQSegmentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1845C45421E0A9190033644C /* GQSegmentTitleView.h */,
+				1845C45521E0A9190033644C /* GQSegmentTitleView.m */,
+				1845C45621E0A9190033644C /* GQSegmentViewController.h */,
+				1845C45721E0A9190033644C /* GQSegmentViewController.m */,
+				A6D3AE49228F10C900EE1967 /* GQSegmentScrollView.h */,
+				A6D3AE4A228F10C900EE1967 /* GQSegmentScrollView.m */,
+			);
+			path = GQSegmentViewController;
+			sourceTree = "<group>";
+		};
+		18B45CC521E6097700D1E46C /* UncommonUsedManager */ = {
+			isa = PBXGroup;
+			children = (
+				18306B5F21EC5EA900669A85 /* Map */,
+				1845C3E721E0A4D00033644C /* GQCacheManager.h */,
+				1845C3E821E0A4D00033644C /* GQCacheManager.m */,
+				18B45CC221E6086700D1E46C /* GQAliyunOSSManager.h */,
+				18B45CC321E6086700D1E46C /* GQAliyunOSSManager.m */,
+				18B087AF222E272100E52DC8 /* GQSocketRocketManager.h */,
+				18B087B0222E272100E52DC8 /* GQSocketRocketManager.m */,
+				181DDABF225350A7008FE158 /* GQHookManager.h */,
+				181DDAC0225350A7008FE158 /* GQHookManager.m */,
+				181DDAC2225355AF008FE158 /* UIViewController+GQLogger.h */,
+				181DDAC3225355AF008FE158 /* UIViewController+GQLogger.m */,
+				18016C40225DE01B0079669A /* GQKeychainManager.h */,
+				18016C41225DE01B0079669A /* GQKeychainManager.m */,
+				181E5C72226468C80078E1E8 /* GQCatchCrashManager.h */,
+				181E5C73226468C90078E1E8 /* GQCatchCrashManager.m */,
+			);
+			path = UncommonUsedManager;
+			sourceTree = "<group>";
+		};
+		810C7E10CD32D5B80CDDA7E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC776AC0511140D43302B5 /* Pods-GQKit.debug.xcconfig */,
+				75EDDDEFB65BB43ADF5CB241 /* Pods-GQKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7CD303622BCC5C20062B373 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B7CD303722BCC5EF0062B373 /* GQWeakProxy.h */,
+				B7CD303822BCC5EF0062B373 /* GQWeakProxy.m */,
+				B79869F022FA7E9800C356C9 /* GQCommonTool.h */,
+				B79869F122FA7E9800C356C9 /* GQCommonTool.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1845C37F21E0A46E0033644C /* GQKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C39621E0A46E0033644C /* Build configuration list for PBXNativeTarget "GQKit" */;
+			buildPhases = (
+				3303FBDE9C4EA24A38268582 /* [CP] Check Pods Manifest.lock */,
+				1845C37C21E0A46E0033644C /* Sources */,
+				1845C37D21E0A46E0033644C /* Frameworks */,
+				1845C37E21E0A46E0033644C /* Resources */,
+				BAEE3C4325168FDDB1E8E619 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQKit;
+			productName = GQKit;
+			productReference = 1845C38021E0A46E0033644C /* GQKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1845C37821E0A46E0033644C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GQKit;
+				TargetAttributes = {
+					1845C37F21E0A46E0033644C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1845C37B21E0A46E0033644C /* Build configuration list for PBXProject "GQKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1845C37721E0A46E0033644C;
+			productRefGroup = 1845C38121E0A46E0033644C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1845C37F21E0A46E0033644C /* GQKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1845C37E21E0A46E0033644C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C41E21E0A4D00033644C /* GQPlaceHolderView.xib in Resources */,
+				1845C39021E0A46E0033644C /* LaunchScreen.storyboard in Resources */,
+				1845C44B21E0A4D00033644C /* GQPhotoCell.xib in Resources */,
+				1845C38D21E0A46E0033644C /* Assets.xcassets in Resources */,
+				1845C42421E0A4D00033644C /* BAPickView.bundle in Resources */,
+				1845C38B21E0A46E0033644C /* Main.storyboard in Resources */,
+				18B45CC021E5FCEE00D1E46C /* GQTextFieldCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3303FBDE9C4EA24A38268582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GQKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAEE3C4325168FDDB1E8E619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GQKit/Pods-GQKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GQKit/Pods-GQKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GQKit/Pods-GQKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1845C37C21E0A46E0033644C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C43321E0A4D00033644C /* NSArray+NSDictionary+GQLog.m in Sources */,
+				1845C42D21E0A4D00033644C /* SKTag.m in Sources */,
+				B7C1E02D237D455800BE231F /* NSObject+GQKVO.m in Sources */,
+				1845C44921E0A4D00033644C /* GQChooseImageViewController.m in Sources */,
+				1845C43821E0A4D00033644C /* NSString+GQExtension.m in Sources */,
+				1845C44221E0A4D00033644C /* UIButton+GQExtension.m in Sources */,
+				18B45CD721E60E1200D1E46C /* GQTimeManager.m in Sources */,
+				1845C42F21E0A4D00033644C /* SKTagView.m in Sources */,
+				1845C43B21E0A4D00033644C /* GQChooseImageManager.m in Sources */,
+				1845C42A21E0A4D00033644C /* UINavigationBar+Awesome.m in Sources */,
+				A6BE134C2296F18600DFA211 /* HXVideoModel.m in Sources */,
+				1845C44C21E0A4D00033644C /* GQCyclePagerViewCell.m in Sources */,
+				1845C44E21E0A4D00033644C /* GQPickerView.m in Sources */,
+				B7CD303922BCC5EF0062B373 /* GQWeakProxy.m in Sources */,
+				1845C44721E0A4D00033644C /* GQActionSheetView.m in Sources */,
+				1845C42721E0A4D00033644C /* UIView+BAAnimation.m in Sources */,
+				1845C41D21E0A4D00033644C /* GQPlaceHolderView.m in Sources */,
+				181DDAC1225350A7008FE158 /* GQHookManager.m in Sources */,
+				1845C44421E0A4D00033644C /* UIImageView+GQExtenxion.m in Sources */,
+				18277D262227B31700279A1C /* UINavigationController+GQExtension.m in Sources */,
+				1845C43221E0A4D00033644C /* TYPageControl.m in Sources */,
+				1845C42921E0A4D00033644C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				1845C42821E0A4D00033644C /* UIView+BARectCorner_pick.m in Sources */,
+				1845C42E21E0A4D00033644C /* SKTagButton.m in Sources */,
+				1845C45121E0A4D00033644C /* GQSystemModifyDefaultCell.m in Sources */,
+				1845C45821E0A9190033644C /* GQSegmentTitleView.m in Sources */,
+				B7B9F25B2649397900ACCF82 /* GQBaseViewController.m in Sources */,
+				1845C44621E0A4D00033644C /* UIView+GQExtension.m in Sources */,
+				1845C42621E0A4D00033644C /* NSDateFormatter+BAKit.m in Sources */,
+				18B087B1222E272100E52DC8 /* GQSocketRocketManager.m in Sources */,
+				B79869F222FA7E9800C356C9 /* GQCommonTool.m in Sources */,
+				1845C42321E0A4D00033644C /* BAKit_PickerView.m in Sources */,
+				1845C43921E0A4D00033644C /* UIColor+GQExtension.m in Sources */,
+				1845C44821E0A4D00033644C /* GQAlertController.m in Sources */,
+				1845C43521E0A4D00033644C /* NSMutableAttributedString+GQExtension.m in Sources */,
+				181DDAC4225355AF008FE158 /* UIViewController+GQLogger.m in Sources */,
+				1845C45221E0A4D00033644C /* GQTextViewCell.m in Sources */,
+				1845C42C21E0A4D00033644C /* UIViewController+RTRootNavigationController.m in Sources */,
+				18016C42225DE01B0079669A /* GQKeychainManager.m in Sources */,
+				1845C42121E0A4D00033644C /* GQRequestManager.m in Sources */,
+				1845C46A21E1BA700033644C /* GQShowHudManager.m in Sources */,
+				1845C43021E0A4D00033644C /* TYCyclePagerTransformLayout.m in Sources */,
+				18306B6521EC5F1500669A85 /* GQJumpMapNavManager.m in Sources */,
+				1845C44121E0A4D00033644C /* UIBarButtonItem+GQExtension.m in Sources */,
+				1845C38821E0A46E0033644C /* ViewController.m in Sources */,
+				1845C42221E0A4D00033644C /* BAKit_DatePicker.m in Sources */,
+				18B45CC821E609F500D1E46C /* NSArray+GQExtension.m in Sources */,
+				1845C39321E0A46E0033644C /* main.m in Sources */,
+				1845C43421E0A4D00033644C /* NSDictionary+GQExtension.m in Sources */,
+				1845C42521E0A4D00033644C /* NSDate+BAKit.m in Sources */,
+				1845C44021E0A4D00033644C /* GQShowViewManager.m in Sources */,
+				1845C41F21E0A4D00033644C /* GQHTTPSessionManager.m in Sources */,
+				1845C44321E0A4D00033644C /* UIImage+GQExtension.m in Sources */,
+				1845C41C21E0A4D00033644C /* GQLoadingView.m in Sources */,
+				1845C43A21E0A4D00033644C /* GQCacheManager.m in Sources */,
+				1845C43E21E0A4D00033644C /* GQPhotoBrowserManager.m in Sources */,
+				18B087B4222E7EDE00E52DC8 /* GQProjectManager.m in Sources */,
+				18277D232227B0F400279A1C /* GQNavigationController.m in Sources */,
+				18B45CC121E5FCEE00D1E46C /* GQTextFieldCell.m in Sources */,
+				A6D3AE4B228F10C900EE1967 /* GQSegmentScrollView.m in Sources */,
+				1845C43621E0A4D00033644C /* NSMutableDictionary+GQExtenxion.m in Sources */,
+				1845C38521E0A46E0033644C /* AppDelegate.m in Sources */,
+				1845C43121E0A4D00033644C /* TYCyclePagerView.m in Sources */,
+				1845C45921E0A9190033644C /* GQSegmentViewController.m in Sources */,
+				1845C42021E0A4D00033644C /* GQRequestError.m in Sources */,
+				187107F121F6EE63007EDD3D /* GQLabelCell.m in Sources */,
+				1845C41B21E0A4D00033644C /* GQBaseTableViewController.m in Sources */,
+				A6AB2CE1249D1861006EB3E5 /* GQBaseTableViewCell.m in Sources */,
+				18306B6221EC5EC800669A85 /* CLLocation+YCLocation.m in Sources */,
+				1845C45021E0A4D00033644C /* GQSingleButtonCell.m in Sources */,
+				1845C44F21E0A4D00033644C /* GQSearchView.m in Sources */,
+				1845C44A21E0A4D00033644C /* GQPhotoCell.m in Sources */,
+				1845C43C21E0A4D00033644C /* GQInfoStorageManager.m in Sources */,
+				1845C44D21E0A4D00033644C /* GQDoubleButtonCell.m in Sources */,
+				1845C44521E0A4D00033644C /* UILabel+GQExtension.m in Sources */,
+				181E5C74226468C90078E1E8 /* GQCatchCrashManager.m in Sources */,
+				1845C42B21E0A4D00033644C /* RTRootNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1845C38921E0A46E0033644C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1845C38A21E0A46E0033644C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1845C38E21E0A46E0033644C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1845C38F21E0A46E0033644C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1845C39421E0A46E0033644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1845C39521E0A46E0033644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1845C39721E0A46E0033644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CC776AC0511140D43302B5 /* Pods-GQKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3CSF2XJGF;
+				INFOPLIST_FILE = GQKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GQKit.GQKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1845C39821E0A46E0033644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EDDDEFB65BB43ADF5CB241 /* Pods-GQKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3CSF2XJGF;
+				INFOPLIST_FILE = GQKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GQKit.GQKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1845C37B21E0A46E0033644C /* Build configuration list for PBXProject "GQKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C39421E0A46E0033644C /* Debug */,
+				1845C39521E0A46E0033644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845C39621E0A46E0033644C /* Build configuration list for PBXNativeTarget "GQKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C39721E0A46E0033644C /* Debug */,
+				1845C39821E0A46E0033644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1845C37821E0A46E0033644C /* Project object */;
+}

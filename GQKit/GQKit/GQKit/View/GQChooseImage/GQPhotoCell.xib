@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="A8c-tS-mQ5" customClass="GQPhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="177" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="177" height="178"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxB-m4-mE6">
+                        <rect key="frame" x="0.0" y="0.0" width="177" height="178"/>
+                        <state key="normal" image="添加图片"/>
+                        <connections>
+                            <action selector="addImageBtnClick:" destination="A8c-tS-mQ5" eventType="touchUpInside" id="Lgn-9p-CJa"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCZ-k2-yxR">
+                        <rect key="frame" x="152" y="0.0" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="4ah-W2-yJs"/>
+                            <constraint firstAttribute="height" constant="25" id="SDe-XE-6RD"/>
+                        </constraints>
+                        <state key="normal" image="弹窗_关闭"/>
+                        <connections>
+                            <action selector="closeBtnClick:" destination="A8c-tS-mQ5" eventType="touchUpInside" id="xDr-9s-mm1"/>
+                        </connections>
+                    </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="fT7-9s-RG1">
+                        <rect key="frame" x="78" y="79" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上传失败" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohX-aA-mK9">
+                        <rect key="frame" x="0.0" y="148" width="177" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.253631161971831" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="jod-cH-dGS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.90588235294117647" green="0.0" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uxB-m4-mE6" secondAttribute="trailing" id="CMk-gk-S6i"/>
+                <constraint firstAttribute="bottom" secondItem="ohX-aA-mK9" secondAttribute="bottom" id="FSw-Ed-0HM"/>
+                <constraint firstAttribute="trailing" secondItem="eCZ-k2-yxR" secondAttribute="trailing" id="GKb-Bd-xxE"/>
+                <constraint firstItem="fT7-9s-RG1" firstAttribute="centerY" secondItem="A8c-tS-mQ5" secondAttribute="centerY" id="NhD-YO-ikR"/>
+                <constraint firstItem="eCZ-k2-yxR" firstAttribute="top" secondItem="A8c-tS-mQ5" secondAttribute="top" id="QDG-CN-2Vi"/>
+                <constraint firstAttribute="trailing" secondItem="ohX-aA-mK9" secondAttribute="trailing" id="UQz-FI-OOs"/>
+                <constraint firstAttribute="bottom" secondItem="uxB-m4-mE6" secondAttribute="bottom" id="XI5-a5-Uzf"/>
+                <constraint firstItem="uxB-m4-mE6" firstAttribute="top" secondItem="A8c-tS-mQ5" secondAttribute="top" id="Xyl-iL-7K4"/>
+                <constraint firstItem="fT7-9s-RG1" firstAttribute="centerX" secondItem="A8c-tS-mQ5" secondAttribute="centerX" id="bsR-nI-Zcr"/>
+                <constraint firstItem="uxB-m4-mE6" firstAttribute="leading" secondItem="A8c-tS-mQ5" secondAttribute="leading" id="cNU-ZB-lLo"/>
+                <constraint firstItem="ohX-aA-mK9" firstAttribute="leading" secondItem="A8c-tS-mQ5" secondAttribute="leading" id="xqh-G1-tHJ"/>
+            </constraints>
+            <size key="customSize" width="177" height="178"/>
+            <connections>
+                <outlet property="activityIndicator" destination="fT7-9s-RG1" id="1iX-AI-Uah"/>
+                <outlet property="addImageBtn" destination="uxB-m4-mE6" id="twH-HW-YOV"/>
+                <outlet property="closeBtn" destination="eCZ-k2-yxR" id="Kpf-1R-IKO"/>
+                <outlet property="uploadMsgLab" destination="ohX-aA-mK9" id="3sf-is-ptP"/>
+            </connections>
+            <point key="canvasLocation" x="9" y="7"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="弹窗_关闭" width="15" height="15"/>
+        <image name="添加图片" width="110" height="110"/>
+    </resources>
+</document>

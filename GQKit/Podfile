@@ -1,0 +1,21 @@
+platform :ios, '8.0'
+target 'GQKit' do
+
+inhibit_all_warnings!
+#项目常用
+pod 'Masonry', '1.1.0'
+pod 'MJRefresh', '3.1.15.3'
+pod 'AFNetworking', '3.1.0'
+pod 'YYModel', '1.0.4'
+pod 'YYText', '1.0.7'
+pod 'TZImagePickerController', '2.0.1'
+pod 'TOCropViewController', '2.3.6'
+pod 'MWPhotoBrowser', '2.1.2'
+pod 'UITableView+FDTemplateLayoutCell', '1.6'
+pod 'IQKeyboardManager', '3.3.7'
+
+#项目不常用
+pod 'SocketRocket', '0.5.1'
+end
+
+
